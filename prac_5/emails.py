@@ -2,9 +2,9 @@ def main():
     # Dictionary for names/emails to be saved to
     name_and_email = {}
     email = input("Enter you email address:- ")
-    while email != "":
+
+    if email != "":
         name = get_name_from_email(email)
-        #Stuck in an infinite loop - unsure how to fix
         confirmation = input("Is your name {}? (Y/N) ".format(name))
         confirmation.upper()
 

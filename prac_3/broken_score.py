@@ -8,7 +8,7 @@ def main():
     # Get score from user
     score = float(input("Please Enter Score: "))
 
-    # Check if valid between 1-100
+    # Check if valid (between 1-100)
     while score < 0 or score > 101:
         print("Invalid score")
         score = float(input("Please Enter Score: "))
@@ -23,9 +23,7 @@ def main():
         if score < 50:
             print("Bad")
 
-# Give feedback based on score given
+
 
 
 main()
-
-# Fixed incorrect indenting
